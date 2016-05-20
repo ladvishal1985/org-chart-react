@@ -25,19 +25,18 @@ Open http://localhost:8080 in your browser.
 
 Static files are served from the `public` folder, project JavaScript files are bundled from the `app` folder.
 
-**When ready, build for production**
-```
-npm run build
-```
 
 This will generate a minimized bundle.js file on the `public` folder.
 
 
 ### Missing Features
+```
 Control the depth. Till what level we need to show the tree.
+```
 No support to Add/Delete the Node.
+```
 Does not work with flat array. 
-
+```
 
 ### Dependencies
 
