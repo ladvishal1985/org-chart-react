@@ -1,0 +1,52 @@
+.tree  table {
+	
+}
+
+.tree .node-row {
+
+}
+.tree  table  td {
+	text-align: center;
+}
+.tree  table td {
+	
+	vertical-align: top;
+    padding: 0;
+    
+}
+.tree .node {
+	background: #ff0;
+    border: 1px solid;
+    color: black;
+    height: 40px;
+    width: 75px;
+    margin: 0 2px;
+    display: inline-block;
+}
+.tree .line {
+    height: 20px;
+    width: 4px;
+}
+.tree .down {
+    background-color: black;
+    margin: 0px auto;
+}
+.tree .right {
+    border-left: 2px solid black;
+}
+.tree .left {
+    border-right: 2px solid black;
+}
+.tree .top {
+    border-top: 3px solid black;
+}
+
+.tree .node-row .node {
+	background: rgba(0,0,0, 0.3);
+	width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
