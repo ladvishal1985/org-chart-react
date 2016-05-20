@@ -31,9 +31,9 @@ This will generate a minimized bundle.js file on the `public` folder.
 
 ### Missing Features
 
-*Control the depth. Till what level we need to show the tree.
-*No support to Add/Delete the Node.
-*Does not work with flat array. 
+* Control the depth. Till what level we need to show the tree.
+* No support to Add/Delete the Node.
+* Does not work with flat array. 
 
 ### Dependencies
 
