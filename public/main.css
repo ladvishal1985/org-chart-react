@@ -1,5 +1,8 @@
+.tree {
+    padding-top: 10px;
+}
 .tree  table {
-	
+	margin: auto;
 }
 
 .tree .node-row {
@@ -15,14 +18,36 @@
     
 }
 .tree .node {
-	background: #ff0;
-    border: 1px solid;
-    color: black;
+	background: #3ef9cb;
+    border: 2px solid;
+    color: white;
     height: 40px;
     width: 75px;
     margin: 0 2px;
     display: inline-block;
+    font-weight: bold;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    padding-top: 10px;
 }
+
+
+.tree .node:hover {
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.tree .node.empty {
+    background: #e56262
+}
+
 .tree .line {
     height: 20px;
     width: 4px;

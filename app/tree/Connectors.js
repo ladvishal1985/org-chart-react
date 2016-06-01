@@ -14,8 +14,8 @@ export class ConnectorBottom extends Component {
         var connectors = [];
         var length = this.props.childNodes.length - 1
         for(var i = 0; i < length; i++ ){
-            connectors.push(<td className="line right top">&nbsp;</td>);
-            connectors.push(<td className="line left top">&nbsp;</td>);
+            connectors.push(<td className="line right top" key={i}>&nbsp;</td>);
+            connectors.push(<td className="line left top" >&nbsp;</td>);
             
         }
         return (
