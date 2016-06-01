@@ -28,12 +28,13 @@ Static files are served from the `public` folder, project JavaScript files are b
 
 This will generate a minimized bundle.js file on the `public` folder.
 
+###Supported Features
+* Control the depth. Till what level we need to show the tree.
+* Works with flat array.
 
 ### Missing Features
-
-* Control the depth. Till what level we need to show the tree.
 * No support to Add/Delete the Node.
-* Does not work with flat array. 
+ 
 
 ### Dependencies
 
