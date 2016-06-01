@@ -1,4 +1,4 @@
-Org Chart/ Hierarchy Chart
+Org Chart/ Hierarchy Chart - React
 =====================
 
 ### Objective
@@ -29,6 +29,7 @@ Static files are served from the `public` folder, project JavaScript files are b
 This will generate a minimized bundle.js file on the `public` folder.
 
 ###Supported Features
+* Expand/Collapse node.
 * Control the depth. Till what level we need to show the tree.
 * Works with flat array.
 
